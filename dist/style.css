@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+}
+
+main{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav{
+  height: 400px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin: 0 30px;
+}
+
+h1 span{
+  color: #222;
+  font-family: 'Abril Fatface', cursive;
+  margin: 0;
+  font-size: 40px;
+  margin: 0;
+  display: block;
+}
+
+h1{
+  color: #222;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px;
+  margin: 0;
+  position: absolute;
+  top: 220px;
+  left: 260px;
+}
+
+article{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-weight: 300;
+  margin-top: 60px;
+  display: block;
+  position: relative;
+}
+
+ul{
+  list-style-type: square;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-weight: 300;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+h2{
+ text-transform: uppercase;
+ font-family: 'Josefin Sans', sans-serif;
+ font-weight: bold;
+ margin-top: 200px;
+ margin-bottom: 60px;
+}
+
+h4{
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Merriweather', serif;
+}
+
+.nope{
+  margin-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+blockquote{
+  background: #222;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  font-weight: 20;
+  height: 120px;
+  width: 600px;
+  margin-top: 50px;
+  padding: 20px 50px;
+  align-self: start;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.grey{
+ height: 50px;
+ width: 30px;
+ transform: rotate(180deg);
+ position: absolute;
+ top: 30px;
+ left: 20px;
+}
+
+blockquote div.grey:before{
+  content: '”';
+  font-size: 3em;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cloud{
+  position: absolute;
+  left: 230px;
+}
+
+.doboz{
+  border-top: 3px solid black;
+  margin-top: 40px;
+}
+
+.utso{
+  margin-top: 60px;
+}
+
+.kesz{
+  margin-bottom: 50px;
+}
+
+.go{
+  height: 100px;
+  width: 100px;
+  background: grey;
+  color: white;
+  display: block;
+ text-align: center;
+ text-transform: uppercase;
+ font-family: 'Josefin Sans', sans-serif;
+ border-radius: 50px;
+}
+
+#next{
+  position: fixed;
+  top: 150px;
+  right: 0;
+}
+
+#prew{
+  position: fixed;
+  top: 150px;
+  left: 0;
+}
+
+a.go{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
